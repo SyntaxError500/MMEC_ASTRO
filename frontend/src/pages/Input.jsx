@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { Stars, OrbitControls } from '@react-three/drei';
 
-const API_URL = 'http://localhost:8000/predict';
+const API_URL = 'https://mmec-astro.onrender.com/predict';
 
 const Input = () => {
   const [formData, setFormData] = useState({
