@@ -14,12 +14,7 @@ function Check() {
     title: 'React',
     description: 'A JavaScript library for building user interfaces.'
   },
-  {
-    image: 'https://cdn.simpleicons.org/three.js',
-    link: 'https://threejs.org/',
-    title: 'Three.js',
-    description: 'A 3D JavaScript library built on WebGL.'
-  },
+  
   {
     image: 'https://cdn.simpleicons.org/vite',
     link: 'https://vitejs.dev/',
@@ -50,12 +45,7 @@ function Check() {
     title: 'Node.js',
     description: 'JavaScript runtime built on Chrome’s V8 engine.'
   },
-  {
-    image: 'https://cdn.simpleicons.org/express',
-    link: 'https://expressjs.com/',
-    title: 'Express.js',
-    description: 'A fast, unopinionated, minimalist web framework for Node.js.'
-  },
+ 
   {
     image: 'https://cdn.simpleicons.org/fastapi',
     link: 'https://fastapi.tiangolo.com/',

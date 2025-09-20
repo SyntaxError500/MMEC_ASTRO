@@ -169,7 +169,7 @@ const Input = () => {
               <div className="mt-8 text-center">
                 <div className="inline-block bg-black/80 text-white px-6 py-4 rounded-xl border border-space-neon-blue">
                   <div><span className="font-bold">Predicted Label:</span> {result.predicted_label === 1 ? 'Correlated' : 'Not Correlated'}</div>
-                  <div><span className="font-bold">Correlation Confidence:</span> {result.correlation_confidence !== null ? (result.correlation_confidence.toFixed(3))*100 : 'N/A'}</div>
+                  <div><span className="font-bold">Correlation Confidence:</span> {result.correlation_confidence !== null ? (((result.correlation_confidence.toFixed(3))*100)>50? result.correlation_confidence.toFixed(3)*100:100-(result.correlation_confidence.toFixed(3))*100) : 'N/A'}</div>
                 </div>
               </div>
             )}
