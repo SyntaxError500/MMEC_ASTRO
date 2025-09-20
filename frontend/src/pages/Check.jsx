@@ -75,31 +75,12 @@ function Check() {
     description: 'A powerful, high-level, general-purpose programming language.'
   },
   {
-    image: 'https://raw.githubusercontent.com/astropy/astropy-logo/main/astropy_logo.svg',
-    link: 'https://www.astropy.org/',
-    title: 'Astropy',
-    description: 'A community-developed core Python package for Astronomy.'
-  },
-  {
     image: 'https://cdn.simpleicons.org/scikitlearn',
     link: 'https://scikit-learn.org/',
     title: 'Scikit-learn',
     description: 'A machine learning library for Python.'
-  },
-  {
-    image: 'https://cdn.simpleicons.org/tensorflow',
-    link: 'https://www.tensorflow.org/',
-    title: 'TensorFlow',
-    description: 'An end-to-end open-source machine learning platform.'
-  },
-  {
-    image: 'https://cdn.simpleicons.org/pytorch',
-    link: 'https://pytorch.org/',
-    title: 'PyTorch',
-    description: 'An open-source machine learning framework.'
   }
 ];
-
 
   return (
   <div style={{ height: '600px', position: 'relative' }}>
